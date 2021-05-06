@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "discord": {
         "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
+        "smallImageText": "TeamPlay",
         "smallImageKey": "seal-circle"
     },
     "java": {
@@ -11,16 +11,16 @@
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "WesterosCraft-1.11.2",
-            "name": "WesterosCraft Production Server",
-            "description": "Main WesterosCraft server. Connect to enter the Realm.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "id": "TeamPlay",
+            "name": "TeamPlay",
+            "description": "",
+            "icon": "https://i.imgur.com/0pkRNFd_d.webp?maxwidth=760&fidelity=grand",
             "version": "3.9.4",
-            "address": "mc.westeroscraft.com",
+            "address": "teamplay-network.minesr.com",
             "minecraftVersion": "1.11.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
+                "largeImageText": "TeamPlay",
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
@@ -246,7 +246,7 @@
                     "artifact": {
                         "size": 2254712,
                         "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/OptiFine.jar"
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
                     }
                 },
                 {
