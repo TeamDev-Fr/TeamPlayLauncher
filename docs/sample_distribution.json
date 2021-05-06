@@ -1271,15 +1271,15 @@
         },
         {
             "id": "WesterosCraftTest-1.13.2",
-            "name": "WesterosCraft 1.13.2 Test Server",
-            "description": "Tests for our version change to 1.13.2 are live here.",
+            "name": "TeamPlay",
+            "description": "",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
             "version": "5.0.0",
-            "address": "mc.westeroscraft.com:4445",
+            "address": "teamplay-network.minesr.com",
             "minecraftVersion": "1.13.2",
             "discord": {
                 "shortId": "1.13.2 Test Server",
-                "largeImageText": "WesterosCraft 1.13.2 Test Server",
+                "largeImageText": "TeamPlay",
                 "largeImageKey": "server-test"
             },
             "mainServer": false,
