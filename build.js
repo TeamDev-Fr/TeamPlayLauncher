@@ -21,7 +21,7 @@ builder.build({
         appId: 'teamplaylauncher',
         productName: 'TeamPlay Launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright ©',
+        copyright: 'Copyright TeamPlay ©',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -49,7 +49,7 @@ builder.build({
             maintainer: '',
             vendor: '',
             synopsis: 'Launcher Serveur Moddé',
-            description: 'Launcher TeamPlay',
+            description: 'Launcher de TeamPlay',
             category: 'Game'
         },
         compression: 'maximum',
