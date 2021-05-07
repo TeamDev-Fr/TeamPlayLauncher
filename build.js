@@ -20,8 +20,8 @@ builder.build({
     config: {
         appId: 'teamplaylauncher',
         productName: 'TeamPlay Launcher',
-        artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright TeamPlay ©',
+        artifactName: '${productName} Setup ${version}.${ext}',
+        copyright: 'Copyright TeamPlay',
         directories: {
             buildResources: 'build',
             output: 'dist'
