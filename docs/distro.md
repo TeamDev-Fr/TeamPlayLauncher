@@ -15,12 +15,12 @@ The distribution index is written in JSON. The general format of the index is as
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
         {
-            "id": "Example_Server",
-            "name": "WesterosCraft Example Client",
-            "description": "Example WesterosCraft server. Connect for fun!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+            "id": "TeamPlay",
+            "name": "TeamPlay",
+            "description": "Serveur PvP Factions & Mini Jeux",
+            "icon": "https://i.imgur.com/HFqnobi.png",
             "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
+            "address": "teamplay-network.minesr.com",
             "minecraftVersion": "1.11.2",
             "discord": {
                 "shortId": "Example",
