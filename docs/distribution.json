@@ -12,7 +12,7 @@
     "servers": [
         {
             "id": "WesterosCraft-1.12.2",
-            "name": "TeamPlay",
+            "name": "WesterosCraft 1.12.2 Production Server",
             "description": "New 1.12.2 production server.",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
             "version": "4.6.4",
