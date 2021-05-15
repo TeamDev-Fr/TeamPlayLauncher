@@ -5,7 +5,7 @@
     "js": {
         "login": {
             "error": {
-                "invalidValue": "* Valeur Invalide",
+                "invalidValue": "* Valeur invalide",
                 "requiredValue": "* Requis",
                 "userMigrated": {
                     "title": "Error During Login:<br>Invalid Credentials",
