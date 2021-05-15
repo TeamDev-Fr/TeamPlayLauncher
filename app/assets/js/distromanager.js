@@ -537,7 +537,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://raw.githubusercontent.com/TeamDev-Fr/MinecraftServerModules/main/distribution.json?token=AT6U6D5F5OJG433UVTQQSODAT63OS'
+        const distroURL = 'https://raw.githubusercontent.com/TeamDev-Fr/MinecraftServerModules/main/distribution.json?token=AT6U6D4WK5NYCJNXKR2KVMLAT65F6'
         //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
         const opts = {
             url: distroURL,
