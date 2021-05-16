@@ -1305,7 +1305,7 @@ function settingsUpdateButtonStatus(text, disabled = false, handler = null){
         settingsUpdateTitle.innerHTML = 'Vous utilisez la version la plus récente'
         settingsUpdateChangelogCont.style.display = 'none'
         populateVersionInformation(remote.app.getVersion(), settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
-        settingsUpdateButtonStatus('Vérifier si des mises à jour sont disponnibles', false, () => {
+        settingsUpdateButtonStatus('Vérifier si des mises à jour sont disponibles', false, () => {
             if (!isDev) {
                 ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
                 settingsUpdateButtonStatus('Recherche des mises à jour...', true)
