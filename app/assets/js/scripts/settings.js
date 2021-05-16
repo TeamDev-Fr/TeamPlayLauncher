@@ -1286,29 +1286,29 @@ function settingsUpdateButtonStatus(text, disabled = false, handler = null){
  * 
  * @param {Object} data The update data.
  */
-function populateSettingsUpdateInformation(data){
-    if(data != null){
+ function populateSettingsUpdateInformation(data) {
+    if (data != null) {
         settingsUpdateTitle.innerHTML = `New ${isPrerelease(data.version) ? 'Pre-release' : 'Release'} Available`
         settingsUpdateChangelogCont.style.display = null
         settingsUpdateChangelogTitle.innerHTML = data.releaseName
         settingsUpdateChangelogText.innerHTML = data.releaseNotes
         populateVersionInformation(data.version, settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
-        
-        if(process.platform === 'darwin'){
-            settingsUpdateButtonStatus('Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>', false, () => {
+
+        if (process.platform === 'darwin') {
+            settingsUpdateButtonStatus('Télécharger depuis Github<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>', false, () => {
                 shell.openExternal(data.darwindownload)
             })
         } else {
-            settingsUpdateButtonStatus('Téléchargement...', true)
+            settingsUpdateButtonStatus('Téléchargement en cours', true)
         }
     } else {
-        settingsUpdateTitle.innerHTML = 'Vous êtes avec la dernière version'
+        settingsUpdateTitle.innerHTML = 'Vous utilisez la version la plus récente'
         settingsUpdateChangelogCont.style.display = 'none'
         populateVersionInformation(remote.app.getVersion(), settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
-        settingsUpdateButtonStatus('Recherche de mises à jour...', false, () => {
-            if(!isDev){
+        settingsUpdateButtonStatus('Vérifier si des mises à jour sont disponnibles', false, () => {
+            if (!isDev) {
                 ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
-                settingsUpdateButtonStatus('Recherche de mises à jour...', true)
+                settingsUpdateButtonStatus('Recherche des mises à jour...', true)
             }
         })
     }
